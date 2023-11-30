@@ -1,43 +1,39 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js" defer></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flexbox, Grid Layout | Seminar Team</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
+
   <body>
-    <section class="All">
-      <h2 class="ttl">Flexbox, Grid Layout | Seminar Team</h2>
-      <div class="wrap">
-        <article class="flex">
-          <header>
-            <h3 class="fttl">Flexbox Layout</h2>
-          </header>
-          <div class="flexContainer">
-            <div class="item left">Left</div>
-            <div class="item center">Center</div>
-            <div class="item right">Right</div>
-          </div>
-          <footer>
-            <p>&copy; 2023 Seminar Team</p>
-          </footer>
-        </article>
-        <article class="grid">
-          <div class="gridContainer">
-            <header>
-              <h3 class="gttl">Grid Layout</h3>
-            </header>
-            <div class="item left">Left</div>
-            <div class="item center">Center</div>
-            <div class="item right">Right</div>
-            <footer>
-              <p>&copy; 2023 Seminar Team</p>
-            </footer>
-          </div>
-        </article>
-      </div>
-    </section>
+    <header>
+      <h1>HTML/CSS Seminar</h1>
+    </header>
+    <main>
+      <!-- flex -->
+      <section class="wrap">
+        <h2 class="ttl">Flexbox Layout</h2>
+        <div class="flex-wrap">
+          <div class="item left">Left</div>
+          <div class="item center">Center</div>
+          <div class="item right">Right</div>
+        </div>
+      </section>
+
+      <!-- grid -->
+      <section class="wrap">
+        <h2 class="ttl">Grid Layout</h2>
+        <div class="grid-wrap">
+          <div class="item left">Left</div>
+          <div class="item center">Center</div>
+          <div class="item right">Right</div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Seminar Team</p>
+    </footer>
   </body>
 </html>
